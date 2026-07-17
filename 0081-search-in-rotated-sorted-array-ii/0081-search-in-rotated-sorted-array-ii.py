@@ -11,17 +11,17 @@ class Solution(object):
             mid=(left+right)//2
             if(nums[mid]==target):
                 return True
-            elif(nums[left]==nums[right]==nums[mid]):
+            elif(nums[mid]==nums[left]==nums[right]):
                 left+=1
                 right-=1
             elif(nums[left]<=nums[mid]):
-                if(nums[left]<=target and nums[mid]>=target):
-                    right=mid-1
+                if(target>=nums[left] and target < nums[mid]):
+                    right=mid
                 else:
                     left=mid+1
-            elif(nums[left]>nums[mid]):
-                if(nums[mid]<=target and nums[right]>=target):
+            else:
+                if(target>nums[mid] and target<=nums[right]):
                     left=mid+1
                 else:
-                    right=mid-1
+                    right=mid
         return False
