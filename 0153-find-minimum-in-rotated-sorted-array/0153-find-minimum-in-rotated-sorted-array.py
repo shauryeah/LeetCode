@@ -10,10 +10,8 @@ class Solution(object):
                 return nums[left]
         while(left<right):
             mid=(left+right)//2
-            if(nums[mid+1]<nums[mid]):
-                return nums[mid+1]
-            elif(nums[left]<=nums[mid]):
+            if(nums[mid]>nums[right]):
                 left=mid+1
             else:
                 right=mid
-        
+        return nums[left]
