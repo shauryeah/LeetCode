@@ -12,16 +12,16 @@ class Solution(object):
             if(nums[mid]==target):
                 return mid
             elif(nums[left]<=nums[mid]):
-                if(nums[left]<=target and target<=nums[mid]):
-                    right=mid-1
+                if(target<nums[mid] and target>=nums[left]):
+                    right=mid
                 else:
                     left=mid+1
-            
-            elif(nums[left]>nums[mid]):
-                if(nums[right]>=target and nums[mid]<=target):
+            else:
+                if(target>nums[mid] and target<=nums[right]):
                     left=mid+1
                 else:
-                    right=mid-1
+                    right=mid
+
             
         return -1
 
