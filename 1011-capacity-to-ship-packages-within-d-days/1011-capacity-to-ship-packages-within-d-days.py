@@ -25,7 +25,7 @@ class Solution(object):
                 right=mid
             else:
                 left=mid+1
-        return ans
+        return right
             
 
 
