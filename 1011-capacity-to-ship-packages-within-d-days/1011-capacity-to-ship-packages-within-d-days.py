@@ -9,7 +9,6 @@ class Solution(object):
             return sum(weights)
         left= max(weights)
         right=sum(weights)
-        ans=float('inf')
         while(left<right):
             mid=(left+right)//2
             shipdays=1
@@ -21,7 +20,6 @@ class Solution(object):
                     shipdays+=1
                     current=i
             if(shipdays<=days):
-                ans=min(ans,mid)
                 right=mid
             else:
                 left=mid+1
