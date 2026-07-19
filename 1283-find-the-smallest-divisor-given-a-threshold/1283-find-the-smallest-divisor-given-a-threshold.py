@@ -11,7 +11,7 @@ class Solution(object):
             mid=(left+right)//2
             summ=0
             for i in nums:
-                summ+=(i+mid-1)/mid
+                summ+=(i+mid-1)//mid
             if summ<=threshold:
                 right=mid
             else:
