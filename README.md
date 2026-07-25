@@ -8,11 +8,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/shauryeah/LeetCode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/shauryeah/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0344-reverse-string](https://github.com/shauryeah/LeetCode/tree/master/0344-reverse-string) |
+| [0844-backspace-string-compare](https://github.com/shauryeah/LeetCode/tree/master/0844-backspace-string-compare) |
 ## String
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shauryeah/LeetCode/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/shauryeah/LeetCode/tree/master/0344-reverse-string) |
+| [0844-backspace-string-compare](https://github.com/shauryeah/LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/shauryeah/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2390-removing-stars-from-a-string](https://github.com/shauryeah/LeetCode/tree/master/2390-removing-stars-from-a-string) |
 ## Array
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/shauryeah/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/shauryeah/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/shauryeah/LeetCode/tree/master/0155-min-stack) |
+| [0844-backspace-string-compare](https://github.com/shauryeah/LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/shauryeah/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2390-removing-stars-from-a-string](https://github.com/shauryeah/LeetCode/tree/master/2390-removing-stars-from-a-string) |
 ## Monotonic Stack
@@ -75,5 +78,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0844-backspace-string-compare](https://github.com/shauryeah/LeetCode/tree/master/0844-backspace-string-compare) |
 | [2390-removing-stars-from-a-string](https://github.com/shauryeah/LeetCode/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
