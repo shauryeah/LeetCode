@@ -9,7 +9,7 @@ class Solution(object):
         stack=[]
         ans=[]
         for j in nums2[::-1]:
-            while(stack and stack[-1]<j):
+            while(stack and stack[-1]<=j):
                 stack.pop()
             if(stack):
                 num1[j]=stack[-1]
