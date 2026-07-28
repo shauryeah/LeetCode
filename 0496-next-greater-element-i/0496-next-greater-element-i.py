@@ -5,21 +5,24 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
-        num1={}
         stack=[]
+        dicti={}
         ans=[]
-        for j in nums2[::-1]:
-            while(stack and stack[-1]<=j):
-                stack.pop()
-            if(stack):
-                num1[j]=stack[-1]
-                stack.append(j)
+        for i in range(len(nums2)):
+            if not stack:
+                stack.append(i)
             else:
-                num1[j]=-1
-                stack.append(j)
-        for i in nums1:
-            ans.append(num1[i])
+                while stack and nums2[stack[-1]]<nums2[i]:
+                    k=stack.pop()
+                    dicti[nums2[k]]=nums2[i]
+                stack.append(i)
+        for num in nums1:
+            ans.append(dicti.get(num,-1))
         return ans
+
+
+
+
 
 
 
