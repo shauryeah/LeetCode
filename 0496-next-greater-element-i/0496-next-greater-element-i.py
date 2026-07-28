@@ -8,14 +8,11 @@ class Solution(object):
         stack=[]
         dicti={}
         ans=[]
-        for i in range(len(nums2)):
-            if not stack:
-                stack.append(i)
-            else:
-                while stack and nums2[stack[-1]]<nums2[i]:
-                    k=stack.pop()
-                    dicti[nums2[k]]=nums2[i]
-                stack.append(i)
+        for i in range(len(nums2)): 
+            while stack and nums2[stack[-1]]<nums2[i]:
+                k=stack.pop()
+                dicti[nums2[k]]=nums2[i]
+            stack.append(i)
         for num in nums1:
             ans.append(dicti.get(num,-1))
         return ans
