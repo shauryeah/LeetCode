@@ -10,14 +10,8 @@ class Solution(object):
         :rtype: Optional[ListNode]
         """
         curr=head
-        count=0
-        while(curr):
-            curr=curr.next
-            count+=1
-        if(count%2==0):
-            for i in range(count/2):
-                head=head.next
-        else:
-            for i in range(count//2):
-                head=head.next
-        return head
+        now=head
+        while(curr and curr.next):
+            curr=curr.next.next
+            now=now.next
+        return now
