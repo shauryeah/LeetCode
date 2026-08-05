@@ -19,9 +19,10 @@ class Solution(object):
                     return False
             return root1.val==root2.val and same(root1.left,root2.left) and same(root1.right,root2.right)
         def sub(root,subroot):
-            if(same(root,subroot)):
-                return True
             if(not root):
                 return False
+            if(same(root,subroot)):
+                return True
+            
             return sub(root.left,subroot) or sub(root.right,subroot)
         return sub(root,subRoot)
