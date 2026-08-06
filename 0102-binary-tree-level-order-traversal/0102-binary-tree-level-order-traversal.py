@@ -11,11 +11,11 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         from collections import deque
+        if(not root):
+                return []
         Queue=deque([root])
         ans=[]
         while(Queue):
-            if(not root):
-                return []
             level_size=len(Queue)
             lev=[]
             for i in range(level_size):
