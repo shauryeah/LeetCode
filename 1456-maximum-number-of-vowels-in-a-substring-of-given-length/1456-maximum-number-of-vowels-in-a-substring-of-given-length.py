@@ -16,5 +16,6 @@ class Solution(object):
                 if s[left].lower() in 'aeiou':
                     cnt-=1
                 left+=1
+        maxx=max(cnt,maxx)
         return maxx
             
