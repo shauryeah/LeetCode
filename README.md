@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/shauryeah/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/shauryeah/LeetCode/tree/master/0739-daily-temperatures) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/shauryeah/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0904-fruit-into-baskets](https://github.com/shauryeah/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shauryeah/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/shauryeah/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/shauryeah/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shauryeah/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0496-next-greater-element-i](https://github.com/shauryeah/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0904-fruit-into-baskets](https://github.com/shauryeah/LeetCode/tree/master/0904-fruit-into-baskets) |
 ## Data Stream
 |  |
 | ------- |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shauryeah/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/shauryeah/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0904-fruit-into-baskets](https://github.com/shauryeah/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/shauryeah/LeetCode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Prefix Sum
 |  |
