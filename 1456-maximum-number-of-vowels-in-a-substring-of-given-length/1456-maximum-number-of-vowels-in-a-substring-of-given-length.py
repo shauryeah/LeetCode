@@ -9,11 +9,11 @@ class Solution(object):
         maxx=0
         cnt=0
         for right in range(len(s)):
-            if s[right].lower() in ['a','e','i','o','u']:
+            if s[right].lower() in 'aeiou':
                 cnt+=1
             while(right-left+1==k):
                 maxx=max(maxx,cnt)
-                if s[left].lower() in ['a','e','i','o','u']:
+                if s[left].lower() in 'aeiou':
                     cnt-=1
                 left+=1
         return maxx
