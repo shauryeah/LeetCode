@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/shauryeah/LeetCode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shauryeah/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/shauryeah/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0125-valid-palindrome](https://github.com/shauryeah/LeetCode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/shauryeah/LeetCode/tree/master/0143-reorder-list) |
 | [0344-reverse-string](https://github.com/shauryeah/LeetCode/tree/master/0344-reverse-string) |
 | [0844-backspace-string-compare](https://github.com/shauryeah/LeetCode/tree/master/0844-backspace-string-compare) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/shauryeah/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/shauryeah/LeetCode/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/shauryeah/LeetCode/tree/master/0071-simplify-path) |
+| [0125-valid-palindrome](https://github.com/shauryeah/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/shauryeah/LeetCode/tree/master/0344-reverse-string) |
 | [0844-backspace-string-compare](https://github.com/shauryeah/LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/shauryeah/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
