@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/shauryeah/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/shauryeah/LeetCode/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/shauryeah/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shauryeah/LeetCode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/shauryeah/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/shauryeah/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Greedy
